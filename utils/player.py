@@ -31,6 +31,16 @@ class Deck:
             for n in j.number:
                 self.cards.append(n + " " + c)
         random.shuffle(self.cards)
+        
+     def distributer(self,pn, nc ):
+         self.pn=pn
+         self.nc=nc
+         for i in range(nc):
+             handcard = self.cards.pop()
+             pn.cards.append(handcard)
+
+
+        
 
 
 
