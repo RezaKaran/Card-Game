@@ -14,5 +14,7 @@ class Board():
         number_cards4eachp = 52 // number_of_players
 
         for i in range(1, number_of_players + 1):
-            playerName = input("Please enter the name of player " + str(i) )
-            pn = Player(playerName)
+            player_name = input("Please enter the name of player " + str(i) )
+            pname = Player(player_name)
+            Deck.distribute(pname, number_cards4eachp, )
+            
