@@ -1,5 +1,4 @@
 from utils.card import Card
-
 import random
 
 class Player():
